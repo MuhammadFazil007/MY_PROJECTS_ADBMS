@@ -21,16 +21,23 @@ namespace ADBMS_Screens_Project
         public static DataTable ExecuteQuery(string query, SqlParameter[] parameters = null)
         {
             DataTable dt = new DataTable();
-            using (SqlConnection con = GetConnection())
-            using (SqlCommand cmd = new SqlCommand(query, con))
+            try
             {
-                if (parameters != null)
+                using (SqlConnection con = GetConnection())
+                using (SqlCommand cmd = new SqlCommand(query, con))
                 {
-                    cmd.Parameters.AddRange(parameters);
+                    cmd.CommandTimeout = 30;
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+                    con.Open();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    da.Fill(dt);
                 }
-                con.Open();
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(dt);
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Query Failed:\n\n" + ex.Message, "DB Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return dt;
         }
