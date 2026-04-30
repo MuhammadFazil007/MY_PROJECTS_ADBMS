@@ -55,8 +55,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.dgvMenu = new System.Windows.Forms.DataGridView();
-            this.colEdit = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.colDel = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel2.SuspendLayout();
             this.sidebar_panel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -387,27 +385,12 @@
             this.dgvMenu.AllowUserToAddRows = false;
             this.dgvMenu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvMenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMenu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colEdit,
-            this.colDel});
             this.dgvMenu.Location = new System.Drawing.Point(158, 335);
             this.dgvMenu.Name = "dgvMenu";
             this.dgvMenu.ReadOnly = true;
             this.dgvMenu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMenu.Size = new System.Drawing.Size(610, 174);
             this.dgvMenu.TabIndex = 7;
-            // 
-            // colEdit
-            // 
-            this.colEdit.HeaderText = "Edit";
-            this.colEdit.Name = "colEdit";
-            this.colEdit.ReadOnly = true;
-            // 
-            // colDel
-            // 
-            this.colDel.HeaderText = "Del";
-            this.colDel.Name = "colDel";
-            this.colDel.ReadOnly = true;
             // 
             // Menu_Management_Form
             // 
@@ -465,7 +448,5 @@
         private System.Windows.Forms.TextBox txtItemName;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.DataGridView dgvMenu;
-        private System.Windows.Forms.DataGridViewButtonColumn colEdit;
-        private System.Windows.Forms.DataGridViewButtonColumn colDel;
     }
 }
