@@ -176,6 +176,7 @@ namespace ADBMS_Screens_Project
         private void btnAddItem_Click(object sender, EventArgs e)
         {
             if (!ValidateForm()) return;
+            
 
             SqlParameter[] prms = {
                 new SqlParameter("@ItemName",    txtItemName.Text.Trim()),
@@ -251,6 +252,12 @@ namespace ADBMS_Screens_Project
 
         private bool ValidateForm()
         {
+            if(txtItemName.Text.Trim() == "" && comboBox1.SelectedIndex == -1 && txtPrice.Text.Trim() == "")
+            {
+                MessageBox.Show("Please fill in all required fields.", "Validation",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
             if (txtItemName.Text.Trim() == "")
             {
                 MessageBox.Show("Item Name is required.", "Validation",
