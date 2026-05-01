@@ -20,7 +20,6 @@ F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screen
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Login_Form.resources
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Form3.resources
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Form4.resources
-F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Form5.resources
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Form6.resources
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Properties.Resources.resources
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS(Screens)Project.csproj.GenerateResource.cache
@@ -28,3 +27,4 @@ F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screen
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS(Screens)Project.exe
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS(Screens)Project.pdb
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Menu_Management_Form.resources
+F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Form_Billing.resources

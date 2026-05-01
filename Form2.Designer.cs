@@ -138,6 +138,7 @@
             this.Billing_Button.Text = "Billing";
             this.Billing_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Billing_Button.UseVisualStyleBackColor = true;
+            this.Billing_Button.Click += new System.EventHandler(this.Billing_Button_Click);
             // 
             // Orders_Button
             // 
@@ -151,6 +152,7 @@
             this.Orders_Button.Text = "Orders";
             this.Orders_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Orders_Button.UseVisualStyleBackColor = true;
+            this.Orders_Button.Click += new System.EventHandler(this.Orders_Button_Click);
             // 
             // Customer_Button
             // 

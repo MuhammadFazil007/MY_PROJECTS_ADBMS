@@ -302,5 +302,17 @@ namespace ADBMS_Screens_Project
             form.Show();
 
         }
+
+        private void Orders_Button_Click(object sender, EventArgs e)
+        {
+            Form4 form = new Form4();
+            form.Show();
+        }
+
+        private void Billing_Button_Click(object sender, EventArgs e)
+        {
+            Form_Billing form = new Form_Billing();
+            form.Show();
+        }
     }
 }

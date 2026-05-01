@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace ADBMS_Screens_Project
 {
-    public partial class Form5 : Form
+    public partial class Form_Billing : Form
     {
-        public Form5()
+        private int _orderID;
+        private decimal _grandTotal;
+        public Form_Billing(int orderID = 0)
         {
             InitializeComponent();
+            _orderID = orderID;
         }
 
         private void label4_Click(object sender, EventArgs e)

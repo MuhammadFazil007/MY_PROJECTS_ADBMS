@@ -1,6 +1,6 @@
 ﻿namespace ADBMS_Screens_Project
 {
-    partial class Form5
+    partial class Form_Billing
     {
         /// <summary>
         /// Required designer variable.
@@ -866,7 +866,7 @@
             this.label33.Text = "Payment Method";
             this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
-            // Form5
+            // Form_Billing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -883,8 +883,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.sidebar_panel);
-            this.Name = "Form5";
-            this.Text = "Form5";
+            this.Name = "Form_Billing";
+            this.Text = "Billing Form";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
