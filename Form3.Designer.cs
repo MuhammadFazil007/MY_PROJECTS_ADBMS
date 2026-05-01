@@ -39,56 +39,56 @@
             this.button1 = new System.Windows.Forms.Button();
             this.Dashboard_button = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.button15 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label32 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -256,6 +256,41 @@
             this.panel1.Size = new System.Drawing.Size(672, 175);
             this.panel1.TabIndex = 7;
             // 
+            // button9
+            // 
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(206, 129);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(52, 30);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "Clear";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button8
+            // 
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(113, 129);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(91, 30);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "Update";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button7
+            // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(4, 129);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(107, 30);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "Add Customer";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -311,6 +346,17 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Email";
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.BurlyWood;
+            this.textBox2.Location = new System.Drawing.Point(307, 24);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(254, 35);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "e,g., 03XX-XXXXXXX";
+            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -344,52 +390,6 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Customer Management";
             // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.BurlyWood;
-            this.textBox2.Location = new System.Drawing.Point(307, 24);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(254, 35);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "e,g., 03XX-XXXXXXX";
-            // 
-            // button8
-            // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(113, 129);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(91, 30);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Update";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button7
-            // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(4, 129);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(107, 30);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Add Customer";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(206, 129);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(52, 30);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "Clear";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button8_Click);
-            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.White;
@@ -406,6 +406,17 @@
             this.panel8.Size = new System.Drawing.Size(673, 41);
             this.panel8.TabIndex = 10;
             // 
+            // button15
+            // 
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Location = new System.Drawing.Point(626, 5);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(43, 30);
+            this.button15.TabIndex = 1;
+            this.button15.Text = "Del";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -417,6 +428,17 @@
             this.label24.TabIndex = 0;
             this.label24.Text = "bilal@gmail.com";
             // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label31.Location = new System.Drawing.Point(454, 11);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(93, 17);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "Lal Kurti RWP";
+            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -427,6 +449,28 @@
             this.label26.Size = new System.Drawing.Size(35, 17);
             this.label26.TabIndex = 0;
             this.label26.Text = "Bilal";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label25.Location = new System.Drawing.Point(158, 11);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(90, 17);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "0333-1290433";
+            // 
+            // button14
+            // 
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(578, 5);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(42, 30);
+            this.button14.TabIndex = 1;
+            this.button14.Text = "Edit";
+            this.button14.UseVisualStyleBackColor = true;
             // 
             // label27
             // 
@@ -455,6 +499,17 @@
             this.panel7.Size = new System.Drawing.Size(673, 41);
             this.panel7.TabIndex = 11;
             // 
+            // button13
+            // 
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(626, 5);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(43, 30);
+            this.button13.TabIndex = 1;
+            this.button13.Text = "Del";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -465,6 +520,39 @@
             this.label23.Size = new System.Drawing.Size(134, 17);
             this.label23.TabIndex = 0;
             this.label23.Text = "nadeem@gmail.com";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label30.Location = new System.Drawing.Point(452, 11);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(91, 17);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Satelite Town";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label20.Location = new System.Drawing.Point(158, 10);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(90, 17);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "0319-2291562";
+            // 
+            // button12
+            // 
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(578, 5);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(42, 30);
+            this.button12.TabIndex = 1;
+            this.button12.Text = "Edit";
+            this.button12.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -504,6 +592,17 @@
             this.panel6.Size = new System.Drawing.Size(673, 41);
             this.panel6.TabIndex = 12;
             // 
+            // button11
+            // 
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(626, 4);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(43, 30);
+            this.button11.TabIndex = 1;
+            this.button11.Text = "Del";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -514,6 +613,39 @@
             this.label22.Size = new System.Drawing.Size(143, 17);
             this.label22.TabIndex = 0;
             this.label22.Text = "mubashir@gmail.com";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label29.Location = new System.Drawing.Point(434, 10);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(137, 17);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Ghauri Town Phase 2";
+            // 
+            // button10
+            // 
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(578, 4);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(42, 30);
+            this.button10.TabIndex = 1;
+            this.button10.Text = "Edit";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label19.Location = new System.Drawing.Point(158, 10);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(90, 17);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "0332-1925761";
             // 
             // label16
             // 
@@ -574,6 +706,17 @@
             this.button17.TabIndex = 1;
             this.button17.Text = "Edit";
             this.button17.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label28.Location = new System.Drawing.Point(447, 11);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(98, 17);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "Bahria Phase 4";
             // 
             // label21
             // 
@@ -643,6 +786,16 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "Phone";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(468, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(57, 17);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Address";
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -672,159 +825,6 @@
             this.label8.Size = new System.Drawing.Size(22, 17);
             this.label8.TabIndex = 0;
             this.label8.Text = "ID";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(468, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(57, 17);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Address";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label19.Location = new System.Drawing.Point(158, 10);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(90, 17);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "0332-1925761";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label20.Location = new System.Drawing.Point(158, 10);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(90, 17);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "0319-2291562";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label25.Location = new System.Drawing.Point(158, 11);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(90, 17);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "0333-1290433";
-            // 
-            // button10
-            // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(578, 4);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(42, 30);
-            this.button10.TabIndex = 1;
-            this.button10.Text = "Edit";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(626, 4);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(43, 30);
-            this.button11.TabIndex = 1;
-            this.button11.Text = "Del";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(578, 5);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(42, 30);
-            this.button12.TabIndex = 1;
-            this.button12.Text = "Edit";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(626, 5);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(43, 30);
-            this.button13.TabIndex = 1;
-            this.button13.Text = "Del";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(578, 5);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(42, 30);
-            this.button14.TabIndex = 1;
-            this.button14.Text = "Edit";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(626, 5);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(43, 30);
-            this.button15.TabIndex = 1;
-            this.button15.Text = "Del";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label28.Location = new System.Drawing.Point(447, 11);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(98, 17);
-            this.label28.TabIndex = 0;
-            this.label28.Text = "Bahria Phase 4";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label29.Location = new System.Drawing.Point(434, 10);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(137, 17);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Ghauri Town Phase 2";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label30.Location = new System.Drawing.Point(452, 11);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(91, 17);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "Satelite Town";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label31.Location = new System.Drawing.Point(454, 11);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(93, 17);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "Lal Kurti RWP";
             // 
             // panel3
             // 
@@ -864,7 +864,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1333, 727);
+            this.ClientSize = new System.Drawing.Size(820, 496);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
@@ -876,7 +876,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.sidebar_panel);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form3";
             this.Text = "Customer Management Form";
             this.Load += new System.EventHandler(this.Form3_Load);

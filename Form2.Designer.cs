@@ -164,6 +164,7 @@
             this.Customer_Button.Text = "Customers";
             this.Customer_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Customer_Button.UseVisualStyleBackColor = true;
+            this.Customer_Button.Click += new System.EventHandler(this.Customer_Button_Click);
             // 
             // Menu_Button
             // 
@@ -235,6 +236,7 @@
             this.btnClear.TabIndex = 9;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnUpdateItem
             // 
@@ -246,6 +248,7 @@
             this.btnUpdateItem.TabIndex = 9;
             this.btnUpdateItem.Text = "Update Item";
             this.btnUpdateItem.UseVisualStyleBackColor = true;
+            this.btnUpdateItem.Click += new System.EventHandler(this.btnUpdateItem_Click);
             // 
             // btnAddItem
             // 
@@ -257,6 +260,7 @@
             this.btnAddItem.TabIndex = 10;
             this.btnAddItem.Text = "Add Item";
             this.btnAddItem.UseVisualStyleBackColor = true;
+            this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
             // 
             // comboBox1
             // 
@@ -378,7 +382,7 @@
             this.textBox5.Size = new System.Drawing.Size(525, 31);
             this.textBox5.TabIndex = 1;
             this.textBox5.Text = "Search Items...";
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged_1);
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // dgvMenu
             // 
@@ -391,6 +395,7 @@
             this.dgvMenu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMenu.Size = new System.Drawing.Size(610, 174);
             this.dgvMenu.TabIndex = 7;
+            this.dgvMenu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMenu_CellClick);
             // 
             // Menu_Management_Form
             // 
