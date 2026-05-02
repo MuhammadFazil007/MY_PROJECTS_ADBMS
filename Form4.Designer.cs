@@ -51,8 +51,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dtpOrderDate = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.cmbCustomer = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.dgvItems = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
             this.sidebar_panel.SuspendLayout();
@@ -269,7 +269,7 @@
             // 
             this.txtNotes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNotes.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtNotes.Location = new System.Drawing.Point(10, 15);
+            this.txtNotes.Location = new System.Drawing.Point(4, 3);
             this.txtNotes.Multiline = true;
             this.txtNotes.Name = "txtNotes";
             this.txtNotes.Size = new System.Drawing.Size(531, 47);
@@ -283,7 +283,7 @@
             this.btnPlaceOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlaceOrder.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlaceOrder.ForeColor = System.Drawing.Color.White;
-            this.btnPlaceOrder.Location = new System.Drawing.Point(547, 23);
+            this.btnPlaceOrder.Location = new System.Drawing.Point(541, 12);
             this.btnPlaceOrder.Name = "btnPlaceOrder";
             this.btnPlaceOrder.Size = new System.Drawing.Size(107, 30);
             this.btnPlaceOrder.TabIndex = 28;
@@ -344,6 +344,14 @@
             this.panel1.Size = new System.Drawing.Size(672, 113);
             this.panel1.TabIndex = 9;
             // 
+            // cmbCustomer
+            // 
+            this.cmbCustomer.FormattingEnabled = true;
+            this.cmbCustomer.Location = new System.Drawing.Point(4, 24);
+            this.cmbCustomer.Name = "cmbCustomer";
+            this.cmbCustomer.Size = new System.Drawing.Size(239, 21);
+            this.cmbCustomer.TabIndex = 3;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -355,20 +363,12 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Order Management";
             // 
-            // cmbCustomer
-            // 
-            this.cmbCustomer.FormattingEnabled = true;
-            this.cmbCustomer.Location = new System.Drawing.Point(4, 24);
-            this.cmbCustomer.Name = "cmbCustomer";
-            this.cmbCustomer.Size = new System.Drawing.Size(239, 21);
-            this.cmbCustomer.TabIndex = 3;
-            // 
             // dgvItems
             // 
+            this.dgvItems.BackgroundColor = System.Drawing.Color.White;
             this.dgvItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvItems.Location = new System.Drawing.Point(121, 194);
             this.dgvItems.Name = "dgvItems";
-            this.dgvItems.ReadOnly = true;
             this.dgvItems.Size = new System.Drawing.Size(672, 184);
             this.dgvItems.TabIndex = 28;
             // 
@@ -376,7 +376,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 520);
+            this.ClientSize = new System.Drawing.Size(825, 520);
             this.Controls.Add(this.dgvItems);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);

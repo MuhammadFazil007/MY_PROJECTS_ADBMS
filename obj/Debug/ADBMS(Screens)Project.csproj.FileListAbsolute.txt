@@ -28,3 +28,4 @@ F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screen
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS(Screens)Project.pdb
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Menu_Management_Form.resources
 F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Form_Billing.resources
+F:\BSCS-AI(6C)\ADBMS\Project\Project 2 - Copy\ADBMS(Screens)Project\ADBMS(Screens)Project\obj\Debug\ADBMS_Screens_Project.Dashboard.resources

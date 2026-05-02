@@ -55,7 +55,7 @@ namespace ADBMS_Screens_Project
                     Session.Role = dt.Rows[0]["Role"].ToString();
 
                     this.Hide();
-                    Menu_Management_Form main = new Menu_Management_Form();
+                    Dashboard main = new Dashboard();
                     main.Show();
                 }
                 else

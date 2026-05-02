@@ -21,7 +21,7 @@ namespace ADBMS_Screens_Project
         {
             LoadCategories();
             LoadMenuItems();
-         
+
         }
 
         // ── Style the DataGridView ───────────────────────────────────────────
@@ -108,11 +108,11 @@ namespace ADBMS_Screens_Project
         // ── DataGridView Cell Click — Edit & Delete ──────────────────────────
         private void dgvMenu_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-                    MessageBox.Show(
-               $"Row: {e.RowIndex}\n" +
-               $"Col Index: {e.ColumnIndex}\n" +
-               $"Col Name: {dgvMenu.Columns[e.ColumnIndex].Name}",
-               "Debug Info");
+            MessageBox.Show(
+       $"Row: {e.RowIndex}\n" +
+       $"Col Index: {e.ColumnIndex}\n" +
+       $"Col Name: {dgvMenu.Columns[e.ColumnIndex].Name}",
+       "Debug Info");
 
             // Ignore header row clicks
             if (e.RowIndex < 0) return;
@@ -176,7 +176,7 @@ namespace ADBMS_Screens_Project
         private void btnAddItem_Click(object sender, EventArgs e)
         {
             if (!ValidateForm()) return;
-            
+
 
             SqlParameter[] prms = {
                 new SqlParameter("@ItemName",    txtItemName.Text.Trim()),
@@ -252,7 +252,7 @@ namespace ADBMS_Screens_Project
 
         private bool ValidateForm()
         {
-            if(txtItemName.Text.Trim() == "" && comboBox1.SelectedIndex == -1 && txtPrice.Text.Trim() == "")
+            if (txtItemName.Text.Trim() == "" && comboBox1.SelectedIndex == -1 && txtPrice.Text.Trim() == "")
             {
                 MessageBox.Show("Please fill in all required fields.", "Validation",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -312,6 +312,12 @@ namespace ADBMS_Screens_Project
         private void Billing_Button_Click(object sender, EventArgs e)
         {
             Form_Billing form = new Form_Billing();
+            form.Show();
+        }
+
+        private void Reports_Button_Click(object sender, EventArgs e)
+        {
+            Form6 form = new Form6();
             form.Show();
         }
     }

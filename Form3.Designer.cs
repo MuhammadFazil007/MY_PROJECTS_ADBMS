@@ -39,6 +39,7 @@
             this.btnMenu = new System.Windows.Forms.Button();
             this.Dashboard_button = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnClear = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAddCustomer = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.label32 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.dgvCustomers = new System.Windows.Forms.DataGridView();
-            this.btnClear = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.sidebar_panel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -215,6 +215,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(672, 175);
             this.panel1.TabIndex = 7;
+            // 
+            // btnClear
+            // 
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(210, 128);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 31);
+            this.btnClear.TabIndex = 4;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnUpdate
             // 
@@ -378,6 +390,8 @@
             // 
             this.dgvCustomers.AllowUserToAddRows = false;
             this.dgvCustomers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvCustomers.BackgroundColor = System.Drawing.Color.White;
+            this.dgvCustomers.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCustomers.Location = new System.Drawing.Point(128, 309);
             this.dgvCustomers.Name = "dgvCustomers";
@@ -386,18 +400,6 @@
             this.dgvCustomers.Size = new System.Drawing.Size(672, 175);
             this.dgvCustomers.TabIndex = 15;
             this.dgvCustomers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomers_CellClick);
-            // 
-            // btnClear
-            // 
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(210, 128);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 31);
-            this.btnClear.TabIndex = 4;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Form3
             // 

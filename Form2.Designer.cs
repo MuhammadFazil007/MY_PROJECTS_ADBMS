@@ -125,6 +125,7 @@
             this.Reports_Button.Text = "Reports";
             this.Reports_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Reports_Button.UseVisualStyleBackColor = true;
+            this.Reports_Button.Click += new System.EventHandler(this.Reports_Button_Click);
             // 
             // Billing_Button
             // 
@@ -390,6 +391,8 @@
             // 
             this.dgvMenu.AllowUserToAddRows = false;
             this.dgvMenu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvMenu.BackgroundColor = System.Drawing.Color.White;
+            this.dgvMenu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvMenu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMenu.Location = new System.Drawing.Point(158, 335);
             this.dgvMenu.Name = "dgvMenu";
