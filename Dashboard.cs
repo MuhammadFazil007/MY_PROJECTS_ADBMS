@@ -27,7 +27,7 @@ namespace ADBMS_Screens_Project
         }
         private void SetWelcomeInfo()
         {
-            // Uses the Session class to get the logged-in user's name
+            
             lblWelcome.Text = $"Welcome back, {Session.Username}";
             lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy");
             lblCafeStatus.Text = "Cafe is Open";
@@ -36,7 +36,7 @@ namespace ADBMS_Screens_Project
 
         private void LoadKPICards()
         {
-            // Today's Sales — calls fn_GetTodaysSales()
+        
             object todaySales = DatabaseHelper.ExecuteScalar(
                 "fn_GetTodaysSales", null);
             // Note: For scalar functions, use SELECT syntax
